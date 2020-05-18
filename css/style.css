@@ -13,11 +13,11 @@
 }
 
 #title-name{
-	font-size: 7vw;
+	font-size: 11vh;
 }
 
 #profession{
-	font-size: 3vw;
+	font-size: 5vh;
 }
 
 footer{
@@ -28,16 +28,30 @@ footer{
 	font-style: italic;
 }
 
-
-//Sebastian
-
-@media (min-width: 500px) {
-    header h1::before {
-        content: "Welcome to Sebastian's Personal Web Page!";
+@media (min-width: 451px) {
+    #title-name::before {
+        content: "Carlos Vargas";
     }
 } 
-@media (max-width: 499px) {
-    header h1::before {
-        content: "Sebastian's Web Page!";
+@media (max-width: 450px) {
+    #title-name::before {
+        content: "C. Vargas";
     }
+}
+
+.social-media{
+    list-style:none;
+}
+
+.social-media-li{
+    margin-bottom: 10px;
+}
+
+.social-media-a{
+    font-size: 20px;
+    color: black;
+}
+
+.social-media-a:hover{
+    text-decoration:none;
 }
