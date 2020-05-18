@@ -1,0 +1,49 @@
+#parallax-image{
+    background-image: url('../img/desktop.jpg' );
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#title-name, #profession{
+	color: white;
+}
+
+#title-name{
+	font-size: 7vw;
+}
+
+#profession{
+	font-size: 3vw;
+}
+
+footer{
+	padding: 30px;
+}
+#developer{
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+//Sebastian
+
+@media (min-width: 500px) {
+    header h1::before {
+        content: "Welcome to Sebastian's Personal Web Page!";
+    }
+} 
+@media (max-width: 499px) {
+    header h1::before {
+        content: "Sebastian's Web Page!";
+    }
+}
