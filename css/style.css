@@ -20,6 +20,12 @@
 	font-size: 5vh;
 }
 
+#motto{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
 footer{
 	padding: 30px;
 }
@@ -54,4 +60,8 @@ footer{
 
 .social-media-a:hover{
     text-decoration:none;
+}
+
+div p{
+    text-align: justify;
 }
