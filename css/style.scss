@@ -78,3 +78,16 @@ div {
     	text-align: $textify;
 	}
 }
+
+%shadow-shared:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.box-index{
+    @extend %shadow-shared;
+}
+
+.box-about:hover{
+    @extend %shadow-shared;
+    color: #151575;
+}
