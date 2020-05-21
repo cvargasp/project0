@@ -7,8 +7,7 @@ $textify: justify;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-size: cover;}
 
 #title-name, #profession{
 	color: white;
@@ -73,9 +72,9 @@ div {
 		font-style: italic; 
 	}
 	li{
-		text-align: align-text;
+		text-align: $textify;
 	}
 	p{
-    	text-align: align-text;
+    	text-align: $textify;
 	}
 }
